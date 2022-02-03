@@ -1,0 +1,80 @@
+.signin-1{
+    display: flex;
+    width: 100%;
+    height: 550px;
+}
+.signin-left{
+    width:50%;
+    display: flex;
+    justify-content: center;
+}
+.left-one{
+    width:411px;
+}
+.left-h1{
+    font-size: 100px; 
+    color:#5861AE;
+    margin-top: 30px;
+}
+.left-h3{
+    color: #565657;
+    font-size: 20px;
+    margin-bottom: 74px;
+}
+.left-h2{
+    color: #565657;
+    font-size: 16px;
+    margin-bottom: 16.5px;
+}
+.reg-btn{
+    color: #4552C1; 
+    border-radius: 4px; 
+    border-color: #4552C1;
+    border: 2px solid #4552C1;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.signin-right{
+    width:50%;
+    display: flex;
+    flex-direction: column;
+    background: #B9C0FD1A;
+    /* justify-content: center; */
+}
+
+.form-main{
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin-right h1{
+    margin-left: 30px;
+    margin-bottom: 30px;
+    margin-top: 100px;
+    color: #4552C1;
+    font-size: 32px;
+}
+
+.reg-email{
+    border:none;
+    border-bottom: 1px solid #989898;
+    padding: 5px 10px;
+    outline: none;
+    margin-bottom: 20px;
+    width: 400px;
+    color: #989898;
+    background: #F8F9FF;  
+}
+.pass{
+    font-size: 16px;
+    color: #4552C1;
+    margin-left: 280px;
+}
+.form-main button{
+    width: fit-content;
+    background: #4552C1;
+    color: white;
+    margin-left: 200px;
+}

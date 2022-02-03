@@ -1,0 +1,49 @@
+.justify{
+    /* justify-content: end; */
+    display: flex;
+    flex-wrap: inherit;
+}
+
+.ul-justify{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    flex-flow: row;
+}
+
+.width{
+    width: 112.5px;
+    font-size: 14px;
+}
+/* .header-main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height:80px;
+}
+.component-1{
+    text-align: center;
+    display: flex;
+} */
+.nav-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+}
+.active{
+    margin-right: 800px;
+    color: #5861AE;
+    font-size: 20px;
+}
+
+.signin-div{
+    text-align: center;
+    background: #5861AE;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
